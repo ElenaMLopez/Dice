@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body, .header-container {
+  background-image: url('http://farm4.staticflickr.com/3591/5802468782_66399a720d_b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+/*   HEADER   */
+
+.header-container {
+  /* background-image: url('http://farm4.staticflickr.com/3591/5802468782_66399a720d_b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.nav-list {
+  border-left: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  right: 0;
+  padding: 5px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.nav-element {
+  list-style: none;
+  margin: 5px 10px;
+}
+
+/*   CONTAINER   */
+
+.container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+/*   PLAYERS   */
+
+.players-list, .dice-roll {
+  background-color: white;
+  border-radius: 4px;
+  height: 500px;
+  margin: 5px;
+  width: 45%;
+
+}

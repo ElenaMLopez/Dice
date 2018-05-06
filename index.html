@@ -1,28 +1,36 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Tira dados!</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <head class="header-container">
+    <header class="header-container">
       <nav class="nav-menu">
-        <ul>
+        <ul class="nav-list">
           <li class="nav-element"> Configurar Dado </li>
           <li class="nav-element"> Definir cantidad de dados </li>
           <li class="nav-element"> Dejar dados por defecto</li>
         </ul>
       </nav>
-    </head>
-    <main>
+    </header>
+    <main class="container">
       <section class="players-list">
         <ul id="playersList" class="players-container">
+          <li class="player-element"> wwwwww www <button class="player-button" type="button" name="button">Tirar!</button> </li>
+          <li class="player-element"> wwwwww www <button class="player-button" type="button" name="button">Tirar!</button> </li>
+          <li class="player-element"> wwwwww www <button class="player-button" type="button" name="button">Tirar!</button> </li>
+          <li class="player-element"> wwwwww www <button class="player-button" type="button" name="button">Tirar!</button> </li>
 
         </ul>
 
       </section>
       <section class="dice-roll">
-
+        <label class="invisible" for="dice1"> Dado 1 </label>
+        <input id="dice1" class="dice-input" type="text" name="dice1" value="0">
+        <label class="invisible" for="dice2"> Dado 2 </label>
+        <input id="dice2" class="dice-input" type="text" name="dice2" value="0">
       </section>
 
     </main>
