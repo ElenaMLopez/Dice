@@ -5,8 +5,25 @@ body, .header-container {
   background-image: url('http://farm4.staticflickr.com/3591/5802468782_66399a720d_b.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 16px;
   margin: 0;
   padding: 0;
+}
+/*   COMMON   */
+.custom-button {
+  background-color: #343434;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  transition: .5s;
+}
+
+.custom-button:hover {
+  background-color: #4d4c4c;
+}
+.custom-button:active {
+  background-color: #9f9797;
 }
 /*   HEADER   */
 
@@ -44,6 +61,22 @@ body, .header-container {
 /*   PLAYERS   */
 
 /* Insert player */
+.player-add-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-label {
+  opacity: 0;
+}
+
+
+.player-input,
+.add-player-button {
+  margin: 5px auto;
+  height: 25px;
+  width: 90%;
+}
 
 
 
@@ -69,4 +102,23 @@ body, .header-container {
   list-style: none;
   padding: 5px;
   width: 90%;
+}
+
+
+/*   DICES   */
+
+/* Dice images */
+.dices-container,
+.results {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 90%;
+}
+.dice-img {
+  width: 40%;
+}
+.results {
+  bottom: 0;
 }
