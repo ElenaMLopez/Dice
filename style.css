@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body, .header-container {
+  background-image: url('http://farm4.staticflickr.com/3591/5802468782_66399a720d_b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+/*   COMMON   */
+.custom-button {
+  background-color: #343434;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  transition: .5s;
+}
+
+.custom-button:hover {
+  background-color: #4d4c4c;
+}
+.custom-button:active {
+  background-color: #9f9797;
+}
+/*   HEADER   */
+
+.header-container {
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.nav-list {
+  border-left: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  right: 0;
+  padding: 5px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.nav-element {
+  list-style: none;
+  margin: 5px 10px;
+}
+
+/*   CONTAINER   */
+
+.container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+/*   PLAYERS   */
+
+/* Insert player */
+.player-add-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-label {
+  opacity: 0;
+}
+
+
+.player-input,
+.add-player-button {
+  margin: 5px auto;
+  height: 25px;
+  width: 90%;
+}
+
+
+
+.players-list, .dice-roll {
+  background-color: white;
+  border-radius: 4px;
+  height: 500px;
+  margin: 5px;
+  padding: 5px;
+  width: 45%;
+}
+.players-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+}
+.player-element {
+  border: 1px solid #434546;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 5px;
+  width: 90%;
+}
+
+
+/*   DICES   */
+
+/* Dice images */
+.dices-container,
+.results {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 90%;
+}
+.dice-img {
+  width: 40%;
+}
+.results {
+  bottom: 0;
+}
