@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body, .header-container {
+body {
   background-image: url('http://farm4.staticflickr.com/3591/5802468782_66399a720d_b.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,11 +96,13 @@ body, .header-container {
   padding: 0;
   width: 100%;
 }
+
 .player-element {
   border: 1px solid #434546;
   display: flex;
   justify-content: space-between;
   list-style: none;
+  line-height: 2em;
   margin: 5px 0;
   padding: 5px;
   width: 90%;
@@ -114,7 +116,7 @@ body, .header-container {
 .results {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 10px auto;
   width: 90%;
 }
@@ -123,4 +125,21 @@ body, .header-container {
 }
 .results {
   bottom: 0;
+  margin: 30px auto;
+}
+.results-group > label {
+  display: block;
+  font-size: 2em;
+}
+.results-group > input {
+  font-size: 4em;
+  height: 70px;
+  text-align: center;
+  width: 100px;
+}
+
+/*   HELPERS   */
+
+.hidden {
+  display: none;
 }
