@@ -9,5 +9,5 @@ Dice rolls to assign issues for example
   
   
   
-** Enjoy!!!**
+**Enjoy!!!**
 ^.^
