@@ -17,7 +17,12 @@
     </header>
     <main class="container">
       <section class="players-list">
-        <h3> Jugadores </h3>
+        <header class="section-head">
+          <h3> Jugadores </h3>
+          <button id="start" class="custom-button" type="button" name="start">START</button>
+
+        </header>
+
         <form class="player-add-form" action="index.html" method="post">
           <label class="player-label" for="jugador"> Jugador </label>
           <input id="playerToAdd" class="player-input" type="text" name="" value="" placeholder="Ingresa participante">
@@ -25,10 +30,10 @@
         </form>
 
         <ul id="playersList" class="players-container">
+          <!-- <li class="player-element"> wwwwww www <button class="custom-button player-button" type="button" name="button">Tirar!</button> </li>
           <li class="player-element"> wwwwww www <button class="custom-button player-button" type="button" name="button">Tirar!</button> </li>
           <li class="player-element"> wwwwww www <button class="custom-button player-button" type="button" name="button">Tirar!</button> </li>
-          <li class="player-element"> wwwwww www <button class="custom-button player-button" type="button" name="button">Tirar!</button> </li>
-          <li class="player-element"> wwwwww www <button class="custom-button player-button" type="button" name="button">Tirar!</button> </li>
+          <li class="player-element"> wwwwww www <button class="custom-button player-button" type="button" name="button">Tirar!</button> </li> -->
 
         </ul>
 
@@ -54,6 +59,9 @@
       </section>
 
     </main>
+    <script src="add_member.js" charset="utf-8"></script>
+
     <script src="dice.js" charset="utf-8"></script>
+
   </body>
 </html>
