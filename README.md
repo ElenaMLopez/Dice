@@ -1,5 +1,7 @@
 # Dice
 Dice rolls to assign issues for example
+[Demo](https://elenamlopez.github.io/Dice/)
+
 
 ### How to...
 
